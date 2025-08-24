@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "CrochetApp - Crochet & Tricot",
+    "slug": "crochet-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0ea5e9"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.crochetapp.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Cette app utilise la caméra pour vous aider à suivre vos tutoriels de crochet et tricot",
+        "NSPhotoLibraryUsageDescription": "Cette app accède à vos photos pour sauvegarder vos projets",
+        "NSMicrophoneUsageDescription": "Cette app utilise le microphone pour les tutoriels vidéo interactifs",
+        "CFBundleDisplayName": "CrochetApp"
+      },
+      "category": "LIFESTYLE"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0ea5e9"
+      },
+      "package": "com.crochetapp.app",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "scheme": "crochetapp",
+    "privacy": "public"
+  }
+}
